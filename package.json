@@ -17,29 +17,29 @@
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
-		"@types/js-yaml": "^4.0.5",
-		"@types/node": "^16.11.6",
-		"@typescript-eslint/eslint-plugin": "5.29.0",
-		"@typescript-eslint/parser": "5.29.0",
-		"builtin-modules": "3.3.0",
-		"esbuild": "0.17.3",
+		"@types/js-yaml": "^4.0.9",
+		"@types/node": "^25.0.8",
+		"@typescript-eslint/eslint-plugin": "8.53.0",
+		"@typescript-eslint/parser": "8.53.0",
+		"builtin-modules": "5.0.0",
+		"esbuild": "0.27.2",
 		"obsidian": "latest",
 		"onchange": "^7.1.0",
-		"sass": "^1.64.1",
+		"sass": "^1.97.2",
 		"ts-node-dev": "^2.0.0",
-		"tslib": "2.4.0",
-		"typescript": "4.7.4"
+		"tslib": "2.8.1",
+		"typescript": "5.9.3"
 	},
 	"dependencies": {
-		"@codemirror/lang-json": "^6.0.1",
+		"@codemirror/lang-json": "^6.0.2",
 		"@codemirror/language": "github:lishid/cm-language",
-		"@codemirror/legacy-modes": "^6.3.3",
-		"@codemirror/lint": "^6.4.1",
+		"@codemirror/legacy-modes": "^6.5.2",
+		"@codemirror/lint": "^6.9.2",
 		"@codemirror/stream-parser": "^0.19.9",
-		"@popperjs/core": "^2.11.5",
-		"codemirror": "^6.0.1",
+		"@popperjs/core": "^2.11.8",
+		"codemirror": "^6.0.2",
 		"crypto-random-string": "^5.0.0",
-		"yaml": "^2.3.2"
+		"yaml": "^2.8.2"
 	},
 	"type": "module"
 }
