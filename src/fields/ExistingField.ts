@@ -83,7 +83,7 @@ export class ExistingField implements IExistingField {
 
 
 export function getValueDisplay(field: ExistingField | undefined): string {
-    if (field?.value === ("" || null)) {
+    if (field?.value === "" || field?.value === null) {
         return "<--Empty-->"
     } else if (!field) {
         return "<--Missing-->"
